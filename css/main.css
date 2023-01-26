@@ -127,3 +127,48 @@ footer p, footer small {
 	font-family: "Century Gothic", Futura, sans-serif;
 }
 
+/* Lab2 Starts */
+
+/* Change font-family of all page headings */
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Change font-family of paragraph elements */
+p {
+	font-family: 'Merriweather', serif;
+	font-feature-settings: "liga" 1;
+}
+
+/* Change measure and leading of paragraphs */
+p {
+	width: 65%;
+	line-height: 1.5;
+}
+
+/* Adjust margins and spacing */
+body {
+	margin: 2em;
+}
+
+p {
+	padding: 1em 0;
+}
+
+/* Eliminate duplicated font-family declarations */
+.class1, .class2, .class3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Adjust typography for small screens */
+@media only screen and (max-width: 600px) {
+	h1, h2, h3 {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+}
+
+/*Lab2 Ends */
